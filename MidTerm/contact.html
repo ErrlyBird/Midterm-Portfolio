@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+	Author: Dallas Davis
+	Date: March 4th, 2021
+	File: cantact.html
+	Purpose: a contact me page |Mid Term|
+-->
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>|Contact Dallas|</title>
+</head>
+  
+<body class="site">
+
+	<header class="masthead">
+        <h1 class="site-title"><img src="images/finallogo.png" alt="chicken with blue head logo"><a href="index.html">Dallas Davis</a></h1>
+    </header>
+
+	<section class="navi">
+		<span class="navbar-toggle" id="js-navbar-toggle">
+            <img src = "images/menu2.jpg" />
+        </span>
+		<nav>
+			<ul class="main-nav" id="js-menu">
+				<li><a href="index.html">Work</a></li>
+				<li><a href="service.html">Services</a></li>
+				<li><a href="resume.html">Resume</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a class="current" href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</section>
+	
+	<main id="content" class="main-area container">
+		
+		<form action="#">
+
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+			<label for="country">Country</label>
+			<select id="country" name="country">
+				<option value="australia">USA</option>
+				<option value="canada">Canada</option>
+				<option value="usa">Australia</option>
+			</select>
+
+			<label for="subject">Message</label>
+			<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+			<input type="submit" value="Submit">
+
+		</form>
+		
+		<br><br>
+		
+		<section class="reachout">
+			<p> In addition to the contact form above, please feel free to reach out to me directly via email or by phone.</p>
+		</section>
+		
+		<section class="myinfo">
+			<p>
+				<span class="firstword">Email:</span> bdallasd@gmail.com <br>
+				<span class="firstword">Phone:</span> (919)-555-5555
+			</p>
+		</section>
+		
+    </main>
+	
+	<footer class="colophon">
+		<aside>
+			<a href="https://www.facebook.com/ErrlyBirdy/" target="_blank" class="fa fa-facebook"></a>
+			<a href="https://twitter.com/Errly_Bird" target="_blank" class="fa fa-twitter"></a>
+			<a href="https://www.linkedin.com/in/dallas-davis-789281192/" target="_blank" class="fa fa-linkedin"></a>
+			<a href="https://errlybirdy.wordpress.com/" target="_blank" class="fa fa-wordpress"></a>
+			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="fa fa-youtube"></a>
+		</aside>
+    </footer>
+	
+	<script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>

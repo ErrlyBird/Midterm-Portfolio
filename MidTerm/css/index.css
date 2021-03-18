@@ -1,0 +1,150 @@
+/***************************
+**    Accessibility       **
+***************************/
+
+/***************************
+**    Default Styles      **
+***************************/
+
+/***************************
+**        Header          **
+***************************/
+
+/***************************
+**          Nav           **
+***************************/
+
+/***************************
+**       Main Area        **
+***************************/
+
+.cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-row-gap: 10px;
+	grid-column-gap: 10px;
+}
+
+.cards a {
+	display: block;
+	margin-bottom: 0;
+	text-decoration: none;
+}
+
+.card {
+	display: grid;
+}
+
+.card img {
+	max-width: 100%;
+	height: auto;
+}
+
+.caption {
+	padding: 1em;
+	color: black;
+	font-size: 1.2em;
+	transition: all .4s;
+	opacity: 0;
+}
+
+.card img,
+.caption {
+	grid-column: 1;
+	grid-row: 1;
+}
+
+a:focus .caption,
+a:hover .caption {
+	background: hsla(0, 100%, 100%, .8);
+	opacity: 1;
+}
+
+.caption-title {
+	margin-top: 40%;
+	font-size: 1.5em;
+	line-height: 1.1em;
+}
+
+figure {
+	margin-block-start: 0;
+    margin-block-end: 0;
+	margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+/***************************
+**         Footer         **
+***************************/
+
+@media only screen and (max-width: 800px) {
+	
+	/***************************
+	**        Header          **
+	***************************/
+	
+	/***************************
+	**          Nav           **
+	***************************/
+	
+	
+	/***************************
+	**         Main           **
+	***************************/
+	
+	.cards {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	/***************************
+	**        Footer          **
+	***************************/
+}
+
+@media only screen and (max-width: 540px) {
+	
+	/***************************
+	**        General         **
+	***************************/
+
+	/***************************
+	**        Header          **
+	***************************/
+
+	/***************************
+	**          Nav           **
+	***************************/
+	
+	/***************************
+	**         Main           **
+	***************************/
+	
+	.cards {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 10px;
+		margin: 0 10px 0 10px;
+	}
+	
+	/***************************
+	**        Footer          **
+	***************************/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
